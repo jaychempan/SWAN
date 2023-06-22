@@ -1,7 +1,5 @@
 ## Reducing Semantic Confusion: Scene-aware Aggregation Network for Remote Sensing Cross-modal Retrieval (ICMR2023 Oral)
 
-[Paper](https://dl.acm.org/doi/abs/10.1145/3591106.3592236)
-
 Basic code to thank [GaLR](https://github.com/xiaoyuan1996/GaLR) by Yuan et al.
 
 ## Introduction
