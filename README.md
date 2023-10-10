@@ -18,7 +18,7 @@ python==3.8.5
 torch==1.11.0
 torchvision==0.12.0
 ```
-Notice: (Pre-training under the AID dataset) => resnet50 pre-training weights download [[Baidu Desk]](https://pan.baidu.com/s/1qDSdcvm6as2rKmAmC_86VA?pwd=86a2)
+Notice: (Pre-training under the AID dataset) => resnet50 pre-training weights download [[Baidu Disk]](https://pan.baidu.com/s/1qDSdcvm6as2rKmAmC_86VA?pwd=86a2)
 
 **Train**
 
@@ -38,8 +38,7 @@ python test_single.py --resume 'path to model checkpoint'
 ## Datasets
 
 All experiments are based on [RSITMD](https://github.com/xiaoyuan1996/AMFMN/tree/master/RSITMD) and [RSICD](https://github.com/201528014227051/RSICD_optimal) datasets.
-
-
+or you can download from [[Baidu Disk]]()
 ## Results
 
 ![result](figures/result.png)
