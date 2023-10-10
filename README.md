@@ -11,15 +11,16 @@ Recently, remote sensing cross-modal retrieval has received incredible attention
 
 ## Implementation
 
-Installation
+**Installation**
 
 ```
 python==3.8.5
 torch==1.11.0
 torchvision==0.12.0
 ```
+Notice: (Pre-training under the AID dataset) => resnet50 pre-training weights download [[Baidu Desk]](https://pan.baidu.com/s/1qDSdcvm6as2rKmAmC_86VA?pwd=86a2)
 
-Train
+**Train**
 
 ```bash
 # RSITMD Dataset
@@ -28,7 +29,7 @@ python train.py -g 0 -m SWAN -e SWAN --data_name rsitmd  -p checkpoint/ --epochs
 python train.py -g 0 -m SWAN -e SWAN --data_name rsicd  -p checkpoint/ --epochs 50 -kf 1
 ```
 
-Test
+**Test**
 
 ```bash
 python test_single.py --resume 'path to model checkpoint'
@@ -37,6 +38,7 @@ python test_single.py --resume 'path to model checkpoint'
 ## Datasets
 
 All experiments are based on [RSITMD](https://github.com/xiaoyuan1996/AMFMN/tree/master/RSITMD) and [RSICD](https://github.com/201528014227051/RSICD_optimal) datasets.
+
 
 ## Results
 
