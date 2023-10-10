@@ -37,14 +37,10 @@ python test_single.py --resume 'path to model checkpoint'
 
 ## Datasets
 
-All experiments are based on [RSITMD](https://github.com/xiaoyuan1996/AMFMN/tree/master/RSITMD) and [RSICD](https://github.com/201528014227051/RSICD_optimal) datasets.
-<<<<<<< HEAD
-or you can download from [[Baidu Disk]]()
-=======
-
+All experiments are based on [RSITMD](https://github.com/xiaoyuan1996/AMFMN/tree/master/RSITMD) and [RSICD](https://github.com/201528014227051/RSICD_optimal) datasets, 
 or you can download form [[Baidu Disk]](https://pan.baidu.com/s/1OoBTZ7Hc-S2iCX8nGlbUhA?pwd=pa4k)
 
->>>>>>> 261572fba2e225988610ab48125105c9a7a69c7c
+
 ## Results
 
 ![result](figures/result.png)
