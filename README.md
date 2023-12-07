@@ -5,7 +5,6 @@ By [Jiancheng Pan](https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en&
 This repo is the official implementation of "[Reducing Semantic Confusion: Scene-aware Aggregation Network for Remote Sensing Cross-modal Retrieval](https://dl.acm.org/doi/abs/10.1145/3591106.3592236)"(ICMR'23 Oral).
 
 
-
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/reducing-semantic-confusion-scene-aware/cross-modal-retrieval-on-rsicd)](https://paperswithcode.com/sota/cross-modal-retrieval-on-rsicd?p=reducing-semantic-confusion-scene-aware)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/reducing-semantic-confusion-scene-aware/cross-modal-retrieval-on-rsitmd)](https://paperswithcode.com/sota/cross-modal-retrieval-on-rsitmd?p=reducing-semantic-confusion-scene-aware)
 
@@ -41,7 +40,7 @@ python train.py -g 0 -m SWAN -e SWAN --data_name rsicd  -p checkpoint/ --epochs 
 python test_single.py --resume 'path to model checkpoint'
 ```
 
-## Datasets
+## 🌍 Datasets
 
 All experiments are based on [RSITMD](https://github.com/xiaoyuan1996/AMFMN/tree/master/RSITMD) and [RSICD](https://github.com/201528014227051/RSICD_optimal) datasets, 
 or you can download form [[Baidu Disk]](https://pan.baidu.com/s/1OoBTZ7Hc-S2iCX8nGlbUhA?pwd=pa4k).
