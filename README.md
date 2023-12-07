@@ -15,7 +15,37 @@ Recently, remote sensing cross-modal retrieval has received incredible attention
 ![pipline](figures/pipline.png)
 
 ## 🎯 Implementation
-
+### Project Files
+```
+.
+├── checkpoint
+├── data
+│   ├── rsicd_precomp
+│   └── rsitmd_precomp
+├── data.py
+├── engine.py
+├── fix_data
+│   ├── rsicd_precomp
+│   └── rsitmd_precomp
+├── layers
+│   ├── aid_28-rsp-resnet-50-ckpt.pth
+│   ├── resnet50-19c8e357.pth
+│   ├── resnet.py
+│   └── SWAN.py
+├── main.py
+├── mytools.py
+├── README.md
+├── save_img_text_emb.py
+├── test_ave.py
+├── test_local_feature.py
+├── test_single.py
+├── train.py
+├── utils.py
+├── vocab
+│   ├── rsicd_splits_vocab.json
+│   └── rsitmd_splits_vocab.json
+└── vocab.py
+```
 ### Environments
 
 ```
