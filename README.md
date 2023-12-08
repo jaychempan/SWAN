@@ -28,6 +28,7 @@ Recently, remote sensing cross-modal retrieval has received incredible attention
 
 ## 🎯 Implementation
 ### Project Files
+Notice: Get the Resnet50 pre-training weights under the AID dataset [[Baidu Disk]](https://pan.baidu.com/s/1qDSdcvm6as2rKmAmC_86VA?pwd=86a2)
 ```
 .
 ├── checkpoint
@@ -65,7 +66,6 @@ python==3.8.5
 torch==1.11.0
 torchvision==0.12.0
 ```
-Notice: Get the Resnet50 pre-training weights under the AID dataset [[Baidu Disk]](https://pan.baidu.com/s/1qDSdcvm6as2rKmAmC_86VA?pwd=86a2)
 
 ### Train
 
